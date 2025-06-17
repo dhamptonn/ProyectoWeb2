@@ -1,0 +1,42 @@
+.hero-banner {
+    position: relative;
+    height: 100vh;
+    background: url('../imagenes/fogo-banner.jpg') no-repeat center center/cover;
+  }
+  
+  .hero-banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45); /* oscurecer la imagen */
+    z-index: 1;
+  }
+  
+  .hero-banner .container {
+    z-index: 2;
+    position: relative;
+    padding-left: 4rem; /* Ajusta según qué tan a la izquierda lo quieras */
+  }
+  
+  .hero-banner h1,
+  .hero-banner p,
+  .hero-banner .btn {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* mejor legibilidad sobre la imagen */
+  }
+  
+  .hero-banner h1 {
+    font-size: 3.5rem;
+  }
+  
+  .hero-banner p {
+    max-width: 600px;
+  }
+  
+  .btn-outline-light {
+    border-width: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
