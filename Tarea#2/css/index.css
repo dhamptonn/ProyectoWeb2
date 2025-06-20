@@ -1,0 +1,18 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+  
+header {
+  background: linear-gradient(to right, #003c5e, #007bff);
+  color: white;
+}
+  
+footer {
+  background-color: #003c5e;
+}
+
+footer p {
+  color: white !important;
+}
+  
