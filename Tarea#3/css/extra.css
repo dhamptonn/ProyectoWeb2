@@ -1,0 +1,49 @@
+
+.animate-fade {
+  animation: fadeIn 1.2s ease both;
+}
+
+.animate-up {
+  animation: fadeInUp 1s ease both;
+}
+
+.animate-delay {
+  animation-delay: 0.5s;
+}
+
+.carousel-inner img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.galeria-img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeria-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .titulo-principal {
+    font-size: 2.2rem;
+  }
+  .header-banner {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-whatsapp {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .doble-seccion .col-md-6 {
+    margin-bottom: 40px;
+  }
+}
