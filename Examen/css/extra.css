@@ -1,0 +1,69 @@
+
+.animate-fade {
+  animation: fadeIn 1.2s ease both;
+}
+
+.animate-up {
+  animation: fadeInUp 1s ease both;
+}
+
+.animate-delay {
+  animation-delay: 0.5s;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo-principal {
+    font-size: 2.2rem;
+  }
+  .header-banner {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-whatsapp {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-instagram {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .doble-seccion .col-md-6 {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .collapsible-menu,
+  .hamburger-wrapper {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .info-neon {
+    background-color: #1e1044 !important;
+    background-image: none !important;
+  }
+
+  .info-neon .izquierda,
+  .info-neon .derecha {
+    background-color: transparent !important;
+  }
+}
