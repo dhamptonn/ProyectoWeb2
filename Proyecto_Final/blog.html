@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Clinica Dental Sonríe</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="imagenes/favicon/favicon.png" type="imagenes/png" />
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/reglas.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body id="top">
+
+  <header class="top-bar">
+    <div class="container d-flex justify-content-end align-items-center py-1">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://cr.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <header class="top-bar-menu navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="imagenes/logo.png" alt="Clínica Dental Sonríe" class="logo-img">
+        </a>
+      </div>
+
+      <button class="navbar-toggler ms-auto" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Alternar navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav id="mainNav" class="main-menu collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#nosotros">NOSOTROS</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#servicios">SERVICIOS</a></li>
+          <li class="nav-item"><a class="nav-link" href="instalaciones.html">INSTALACIONES</a></li>
+          <li class="nav-item"><a class="nav-link" href="preguntas.html">PREGUNTAS</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="has-submenu">MÁS</a>
+            <ul class="submenu">
+              <li><a href="equipo.html">Nuestro Equipo</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link cta" href="https://wa.me/50683356811" target="_blank">Agendar Cita</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner-page banner-blog d-flex align-items-center justify-content-center text-center">
+    <div class="container">
+      <h1 class="fw-bold">Nuestro Blog</h1>
+      <p>Consejos, noticias y novedades sobre salud dental</p>
+    </div>
+  </section>
+
+  <section class="blog py-5">
+    <div class="container">
+
+      <div id="blogGrid" class="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+
+        <article class="col blog-item" data-cat="noticias recomendaciones" data-text="fluor protección esmalte niños">
+          <div class="card h-100 shadow-soft">
+            <img src="imagenes/blog/fluor.jpg" class="card-img-top" alt="Flúor y protección del esmalte">
+            <div class="card-body">
+              <h5 class="card-title mt-2">Flúor: evidencia actualizada en prevención de caries</h5>
+              <p class="card-text">Resumen de la evidencia sobre barnices y pastas fluoradas en población pediátrica.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="https://www.ncbi.nlm.nih.gov/books/NBK587342/" target="_blank" rel="noopener" class="btn btn-outline-primary w-100">Leer</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col blog-item" data-cat="investigaciones" data-text="alineadores transparencia comparativo brackets adultos">
+          <div class="card h-100 shadow-soft">
+            <img src="imagenes/blog/alineadores.jpg" class="card-img-top" alt="Alineadores vs brackets">
+            <div class="card-body">
+              <h5 class="card-title mt-2">Alineadores vs. brackets: resultados clínicos comparativos</h5>
+              <p class="card-text">Revisión de estudios recientes sobre efectividad, tiempos y satisfacción del paciente.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11426652/" target="_blank" rel="noopener" class="btn btn-outline-primary w-100">Leer</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col blog-item" data-cat="consejos buenas-practicas" data-text="hilo dental técnica paso a paso higiene oral">
+          <div class="card h-100 shadow-soft">
+            <img src="imagenes/blog/hilo-dental.jpg" class="card-img-top" alt="Uso correcto del hilo dental">
+            <div class="card-body">
+              <h5 class="card-title mt-2">Hilo dental: técnica en 5 pasos</h5>
+              <p class="card-text">Guía rápida para incorporar el hilo dental a tu rutina diaria sin complicaciones.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="https://www.brightonhealthysmiles.com/floss-like-a-pro/" target="_blank" rel="noopener" class="btn btn-outline-primary w-100">Leer</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col blog-item" data-cat="recomendaciones" data-text="selladores molares niños prevención caries">
+          <div class="card h-100 shadow-soft">
+            <img src="imagenes/blog/selladores.jpg" class="card-img-top" alt="Selladores en molares">
+            <div class="card-body">
+              <h5 class="card-title mt-2">Selladores en niños: ¿cuándo colocarlos?</h5>
+              <p class="card-text">Indicaciones, beneficios y cuidados tras la aplicación de selladores dentales.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="https://www.colgate.com/es-py/oral-health/sealants/the-benefits-of-dental-sealants-for-children-1113" target="_blank" rel="noopener" class="btn btn-outline-primary w-100">Leer</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col blog-item" data-cat="noticias" data-text="blanqueamiento protocolos sensibilidad consultorio casa">
+          <div class="card h-100 shadow-soft">
+            <img src="imagenes/blog/blanqueamiento.jpg" class="card-img-top" alt="Blanqueamiento dental">
+            <div class="card-body">
+              <h5 class="card-title mt-2">Protocolos de blanqueamiento actualizados</h5>
+              <p class="card-text">Qué hay de nuevo para minimizar la sensibilidad y mejorar resultados.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="https://la.ultradent.blog/2016/06/14/protocolo-del-tratamiento-de-blanqueamiento-dental" target="_blank" rel="noopener" class="btn btn-outline-primary w-100">Leer</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col blog-item" data-cat="buenas-practicas" data-text="esterilización bioseguridad clínica dental">
+          <div class="card h-100 shadow-soft">
+            <img src="imagenes/blog/bioseguridad.jpg" class="card-img-top" alt="Bioseguridad en clínica">
+            <div class="card-body">
+              <h5 class="card-title mt-2">Bioseguridad: así cuidamos tu salud</h5>
+              <p class="card-text">Esterilización, barreras y protocolos que seguimos en cada atención.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="https://www.osha.gov/dentistry" target="_blank" rel="noopener" class="btn btn-outline-primary w-100">Leer</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col blog-item" data-cat="consejos" data-text="embarazo salud oral gingivitis cuidados">
+          <div class="card h-100 shadow-soft">
+            <img src="imagenes/blog/embarazo-oral.jpg" class="card-img-top" alt="Salud oral en el embarazo">
+            <div class="card-body">
+              <h5 class="card-title mt-2">Embarazo y salud oral: lo que debes saber</h5>
+              <p class="card-text">Cambios en encías, higiene recomendada y cuándo acudir a control.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="https://www.hrsa.gov/es/salud-bucal/embarazo" target="_blank" rel="noopener" class="btn btn-outline-primary w-100">Leer</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col blog-item" data-cat="investigaciones" data-text="implantes éxito oseointegración carga inmediata">
+          <div class="card h-100 shadow-soft">
+            <img src="imagenes/blog/implantes.jpg" class="card-img-top" alt="Implantes dentales">
+            <div class="card-body">
+              <h5 class="card-title mt-2">Implantes: factores de éxito y carga inmediata</h5>
+              <p class="card-text">Qué está reportando la literatura en tiempos de integración y supervivencia.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="https://pubmed.ncbi.nlm.nih.gov/37794532/" target="_blank" rel="noopener" class="btn btn-outline-primary w-100">Leer</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col blog-item" data-cat="recomendaciones consejos" data-text="niños cepillado aprendizaje juegos">
+          <div class="card h-100 shadow-soft">
+            <img src="imagenes/blog/cepillado-ninos.jpg" class="card-img-top" alt="Cepillado en niños">
+            <div class="card-body">
+              <h5 class="card-title mt-2">Cómo enseñar a cepillarse a los niños</h5>
+              <p class="card-text">Rutinas cortas, juegos y pastas adecuadas para cada edad.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="https://guadentis.com/2018/10/01/como-ensenar-a-los-ninos-a-cepillarse-los-dientes/" target="_blank" rel="noopener" class="btn btn-outline-primary w-100">Leer</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <a href="https://wa.me/50683356811" target="_blank" class="whatsapp-float" title="Escríbenos por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <a href="#top" class="scroll-top-button" data-scroll>
+    <i class="uil uil-arrow-up"></i>
+  </a>
+
+  <script src="js/scroll.min.js"></script>
+  <script>
+    smoothScroll.init();
+
+    const scrollBtn = document.querySelector('.scroll-top-button');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 400) {
+        scrollBtn.classList.add('show');
+      } else {
+        scrollBtn.classList.remove('show');
+      }
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const dropdownLinks = document.querySelectorAll('.top-bar-menu .dropdown > .has-submenu');
+    
+      dropdownLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+
+          if (window.matchMedia('(max-width: 767.98px)').matches) {
+            e.preventDefault();
+            const parent = this.closest('.dropdown');
+
+            document.querySelectorAll('.top-bar-menu .dropdown.open').forEach(d => {
+              if (d !== parent) d.classList.remove('open');
+            });
+            parent.classList.toggle('open');
+          }
+        });
+      });
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.querySelector('.menu-toggle');
+      const collapsible = document.querySelector('.collapsible-menu');
+
+      toggleBtn.addEventListener('click', function () {
+        collapsible.classList.toggle('open');
+      });
+    });
+  </script>
+
+  <footer class="site-footer">
+    <div class="container py-1">
+      <p class="mb-0">2025 Clínica Dental Sonríe. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

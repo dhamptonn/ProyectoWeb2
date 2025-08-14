@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Clinica Dental Sonríe</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="imagenes/favicon/favicon.png" type="imagenes/png" />
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/reglas.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body id="top">
+
+  <header class="top-bar">
+    <div class="container d-flex justify-content-end align-items-center py-1">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://cr.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <header class="top-bar-menu navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="imagenes/logo.png" alt="Clínica Dental Sonríe" class="logo-img">
+        </a>
+      </div>
+
+      <button class="navbar-toggler ms-auto" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Alternar navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav id="mainNav" class="main-menu collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#nosotros">NOSOTROS</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#servicios">SERVICIOS</a></li>
+          <li class="nav-item"><a class="nav-link" href="instalaciones.html">INSTALACIONES</a></li>
+          <li class="nav-item"><a class="nav-link" href="preguntas.html">PREGUNTAS</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="has-submenu">MÁS</a>
+            <ul class="submenu">
+              <li><a href="equipo.html">Nuestro Equipo</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link cta" href="https://wa.me/50683356811" target="_blank">Agendar Cita</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner-page banner-contacto d-flex align-items-center justify-content-center text-center">
+    <div class="container">
+      <h1 class="fw-bold">Contáctanos</h1>
+      <p>Estamos aquí para resolver tus dudas</p>
+    </div>
+  </section>
+
+  <section class="contacto py-5">
+    <div class="container">
+      <div class="row g-5 align-items-start">
+
+        <div class="col-12 col-lg-6">
+          <h2 class="display-6 fw-bold mb-4 text-start">
+            Nuestra información de contacto,<br>
+            siempre a disposición de nuestros clientes.
+          </h2>
+
+          <ul class="list-unstyled info-list mb-4">
+            <li class="d-flex align-items-start mb-3">
+              <i class="fa-solid fa-headset me-3 mt-1"></i>
+              <div>
+                <strong>Teléfono:</strong>
+                <a href="tel:(506)2222-3333" class="link-underline">(506) 2222-3333</a>
+              </div>
+            </li>
+            <li class="d-flex align-items-start mb-3">
+              <i class="fa-solid fa-envelope me-3 mt-1"></i>
+              <div>
+                <strong>Correo:</strong>
+                <a href="mailto:info@clinicasonrie.com" class="link-underline">info@clinicasonrie.com</a>
+              </div>
+            </li>
+            <li class="d-flex align-items-start mb-4">
+              <i class="fa-solid fa-map-location-dot me-3 mt-1"></i>
+              <div>
+                Estamos ubicados en Alajuela, Costa Rica
+              </div>
+            </li>
+          </ul>
+
+          <div class="social-contact d-flex gap-4">
+            <a href="https://www.facebook.com/" target="_blank" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://wa.me/50683356811" target="_blank" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <form class="needs-validation contacto-form" novalidate>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre completo <span class="text-muted">(requerido)</span>:</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre completo" required>
+              <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
+            </div>
+
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo electrónico <span class="text-muted">(requerido)</span>:</label>
+              <input type="email" class="form-control" id="correo" name="correo" placeholder="usuario@correo.com" required>
+              <div class="invalid-feedback">Ingresa un correo válido.</div>
+            </div>
+
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Teléfono <span class="text-muted">(requerido)</span>:</label>
+              <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Teléfono" required>
+              <div class="invalid-feedback">Ingresa tu número de teléfono.</div>
+            </div>
+
+            <fieldset class="mb-3">
+              <legend class="col-form-label pt-0">¿Cómo te gustaría que te contactemos? <span class="text-muted">(requerido)</span>:</legend>
+              <div class="d-flex gap-4">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="preferencia" id="prefTel" value="telefono" required>
+                  <label class="form-check-label" for="prefTel">Teléfono</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="preferencia" id="prefEmail" value="correo" required>
+                  <label class="form-check-label" for="prefEmail">Correo electrónico</label>
+                </div>
+              </div>
+              <div class="invalid-feedback d-block">Selecciona una opción.</div>
+            </fieldset>
+
+            <div class="mb-4">
+              <label for="mensaje" class="form-label">Mensaje:</label>
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Mensaje"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-contacto px-4 py-2">Enviar datos</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a href="https://wa.me/50683356811" target="_blank" class="whatsapp-float" title="Escríbenos por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <a href="#top" class="scroll-top-button" data-scroll>
+    <i class="uil uil-arrow-up"></i>
+  </a>
+
+  <script src="js/scroll.min.js"></script>
+  <script>
+    smoothScroll.init();
+
+    const scrollBtn = document.querySelector('.scroll-top-button');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 400) {
+        scrollBtn.classList.add('show');
+      } else {
+        scrollBtn.classList.remove('show');
+      }
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const dropdownLinks = document.querySelectorAll('.top-bar-menu .dropdown > .has-submenu');
+    
+      dropdownLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+
+          if (window.matchMedia('(max-width: 767.98px)').matches) {
+            e.preventDefault();
+            const parent = this.closest('.dropdown');
+
+            document.querySelectorAll('.top-bar-menu .dropdown.open').forEach(d => {
+              if (d !== parent) d.classList.remove('open');
+            });
+            parent.classList.toggle('open');
+          }
+        });
+      });
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.querySelector('.menu-toggle');
+      const collapsible = document.querySelector('.collapsible-menu');
+
+      toggleBtn.addEventListener('click', function () {
+        collapsible.classList.toggle('open');
+      });
+    });
+  </script>
+
+  <script>
+    (() => {
+      'use strict';
+      const forms = document.querySelectorAll('.needs-validation');
+      Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    })();
+  </script>
+
+  <footer class="site-footer">
+    <div class="container py-1">
+      <p class="mb-0">2025 Clínica Dental Sonríe. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

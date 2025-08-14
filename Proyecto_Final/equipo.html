@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Clinica Dental Sonríe</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="imagenes/favicon/favicon.png" type="imagenes/png" />
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/reglas.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body id="top">
+
+  <header class="top-bar">
+    <div class="container d-flex justify-content-end align-items-center py-1">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://cr.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <header class="top-bar-menu navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="imagenes/logo.png" alt="Clínica Dental Sonríe" class="logo-img">
+        </a>
+      </div>
+
+      <button class="navbar-toggler ms-auto" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Alternar navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav id="mainNav" class="main-menu collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#nosotros">NOSOTROS</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#servicios">SERVICIOS</a></li>
+          <li class="nav-item"><a class="nav-link" href="instalaciones.html">INSTALACIONES</a></li>
+          <li class="nav-item"><a class="nav-link" href="preguntas.html">PREGUNTAS</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="has-submenu">MÁS</a>
+            <ul class="submenu">
+              <li><a href="equipo.html">Nuestro Equipo</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link cta" href="https://wa.me/50683356811" target="_blank">Agendar Cita</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner-page banner-equipo d-flex align-items-center justify-content-center text-center">
+    <div class="container">
+      <h1 class="fw-bold">Conoce a Nuestro Equipo de Trabajo</h1>
+    </div>
+  </section>
+
+   <section class="equipo-section py-5" id="equipo">
+    <div class="container">
+      <div class="row g-4">
+  
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="team-card card shadow-sm h-100">
+            <div class="ratio ratio-4x3 team-thumb" role="button" data-bs-toggle="modal" data-bs-target="#medico1Modal"  aria-label="Ver información del Dr. Antonio Navarro">
+              <img src="imagenes/equipo/doctor1.jpg" class="card-img-top" alt="Dr. Antonio Navarro">
+              <div class="team-overlay"><span>Ver perfil</span></div>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-4">Dr. Antonio Navarro</h5>
+              <p class="card-text text-muted">Implantología y Rehabilitación Oral</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="team-card card shadow-sm h-100">
+            <div class="ratio ratio-4x3 team-thumb" role="button" data-bs-toggle="modal" data-bs-target="#medico2Modal" aria-label="Ver información de la Dra. María López">
+              <img src="imagenes/equipo/doctor2.jpg" class="card-img-top" alt="Dra. María López">
+              <div class="team-overlay"><span>Ver perfil</span></div>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-4">Dra. María López</h5>
+              <p class="card-text text-muted">Ortodoncia y Alineadores</p>
+            </div>
+          </article>
+        </div>
+  
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="team-card card shadow-sm h-100">
+            <div class="ratio ratio-4x3 team-thumb" role="button" data-bs-toggle="modal" data-bs-target="#medico3Modal" aria-label="Ver información del Dr. Ricardo Sáenz">
+              <img src="imagenes/equipo/doctor3.jpg" class="card-img-top" alt="Dr. Ricardo Sáenz">
+              <div class="team-overlay"><span>Ver perfil</span></div>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-4">Dr. Ricardo Sáenz</h5>
+              <p class="card-text text-muted">Odontología Estética y Restauradora</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="modal fade" id="medico1Modal" tabindex="-1" aria-labelledby="medico1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title fw-bold" id="medico1Label">Dr. Antonio Navarro</h5>
+        </div>
+        <div class="modal-body">
+          <div class="row g-4 align-items-center">
+            <div class="col-12 col-md-5">
+              <img src="imagenes/equipo/doctor1.jpg" alt="Dr. Antonio Navarro" class="img-fluid rounded">
+            </div>
+            <div class="col-12 col-md-7">
+              <p class="mb-2"><strong>Especialidad:</strong> Implantología y Rehabilitación Oral</p>
+              <p class="mb-2"><strong>Experiencia:</strong> 12+ años</p>
+              <p>Apasionado por devolver función y estética con soluciones integrales. Certificado en cirugía guiada, diseño digital de sonrisas y protocolos de carga inmediata.</p>
+              <ul class="mb-3">
+                <li>Implantes dentales y prótesis sobre implantes</li>
+                <li>Rehabilitación estética y funcional</li>
+                <li>Cirugía oral menor</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="medico2Modal" tabindex="-1" aria-labelledby="medico2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title fw-bold" id="medico2Label">Dra. María López</h5>
+        </div>
+        <div class="modal-body">
+          <div class="row g-4 align-items-center">
+            <div class="col-12 col-md-5">
+              <img src="imagenes/equipo/doctor2.jpg" alt="Dra. María López" class="img-fluid rounded">
+            </div>
+            <div class="col-12 col-md-7">
+              <p class="mb-2"><strong>Especialidad:</strong> Ortodoncia y Alineadores</p>
+              <p class="mb-2"><strong>Experiencia:</strong> 10+ años</p>
+              <p>Enfocada en tratamientos cómodos y discretos para niños, adolescentes y adultos. Amplia experiencia en alineadores y ortodoncia de baja fricción.</p>
+              <ul class="mb-3">
+                <li>Alineadores transparentes</li>
+                <li>Ortodoncia estética (cerámica / zafiro)</li>
+                <li>Corrección de mordidas</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="medico3Modal" tabindex="-1" aria-labelledby="medico3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title fw-bold" id="medico3Label">Dr. Ricardo Sáenz</h5>
+        </div>
+        <div class="modal-body">
+          <div class="row g-4 align-items-center">
+            <div class="col-12 col-md-5">
+              <img src="imagenes/equipo/doctor3.jpg" alt="Dr. Ricardo Sáenz" class="img-fluid rounded">
+            </div>
+            <div class="col-12 col-md-7">
+              <p class="mb-2"><strong>Especialidad:</strong> Odontología Estética y Restauradora</p>
+              <p class="mb-2"><strong>Experiencia:</strong> 9+ años</p>
+              <p>Orientado a tratamientos mínimamente invasivos para resultados naturales y duraderos. Maneja fotografía clínica y planificación digital.</p>
+              <ul class="mb-3">
+                <li>Carillas y blanqueamiento</li>
+                <li>Resinas estéticas y onlays</li>
+                <li>Diseño de Sonrisa</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://wa.me/50683356811" target="_blank" class="whatsapp-float" title="Escríbenos por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <a href="#top" class="scroll-top-button" data-scroll>
+    <i class="uil uil-arrow-up"></i>
+  </a>
+
+  <script src="js/scroll.min.js"></script>
+  <script>
+    smoothScroll.init();
+
+    const scrollBtn = document.querySelector('.scroll-top-button');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 400) {
+        scrollBtn.classList.add('show');
+      } else {
+        scrollBtn.classList.remove('show');
+      }
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const dropdownLinks = document.querySelectorAll('.top-bar-menu .dropdown > .has-submenu');
+    
+      dropdownLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+
+          if (window.matchMedia('(max-width: 767.98px)').matches) {
+            e.preventDefault();
+            const parent = this.closest('.dropdown');
+
+            document.querySelectorAll('.top-bar-menu .dropdown.open').forEach(d => {
+              if (d !== parent) d.classList.remove('open');
+            });
+            parent.classList.toggle('open');
+          }
+        });
+      });
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.querySelector('.menu-toggle');
+      const collapsible = document.querySelector('.collapsible-menu');
+
+      toggleBtn.addEventListener('click', function () {
+        collapsible.classList.toggle('open');
+      });
+    });
+  </script>
+  
+  <footer class="site-footer">
+    <div class="container py-1">
+      <p class="mb-0">2025 Clínica Dental Sonríe. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
